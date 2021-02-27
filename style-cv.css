@@ -1,0 +1,128 @@
+html {
+    font-family: 'Source Code Pro', monospace;
+}
+
+body { 
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+#imgCara {
+    margin: 16px;
+    max-width: 300px;
+    border: 10px solid white;
+}
+
+.detalles {
+    font-weight: 700;
+    padding-right: 10px;
+    
+}
+
+#idFotoDetalle {
+    background: linear-gradient(to right,  rgb(0, 64, 255), rgb(41, 255, 241));
+    max-width: 960px;
+    margin: 10px auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start
+}
+
+#ulDetalles{
+    margin: 16px;
+}
+
+h1{
+    color: rgb(0, 64, 255);
+}
+
+h2{
+    color: rgb(0, 64, 255);
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+li {
+  padding-left: 0px;
+}
+
+li:before{
+    content: "+";
+    padding-right: 5px;
+}
+
+#skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.classSkills{
+    margin-right: 16px;
+}
+
+a{
+    color: black;
+}
+
+.underline{
+    background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.2em;
+    background-position: 0 88%;
+}
+
+.classNivel{
+    font-weight: 700;
+    text-decoration: underline;
+}
+
+.classNivel:before{
+    content: "→";
+    padding-right: 5px;
+}
+
+
+h3 {
+    margin-top: 48px;
+}
+
+main{
+    margin-bottom: 50px;
+}
+
+footer {
+    background: linear-gradient(to right,  rgb(0, 64, 255), rgb(41, 255, 241));
+    max-width: 960px;
+    margin: 10px auto;
+    padding-bottom: 48px;
+}
+
+#idLogosContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.logos{
+    width: 100px;
+}
+
+#pFooter{
+    text-align: center;
+    border-top: 1px solid white;
+    width: 200px;
+    color: white;
+    margin: 0 auto;
+    padding-top: 10px;
+}
